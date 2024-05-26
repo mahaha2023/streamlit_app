@@ -1,0 +1,10 @@
+
+   python
+   pandas
+   numpy
+   matplotlib
+   seaborn
+   sklearn
+   streamlit
+   
+  
