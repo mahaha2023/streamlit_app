@@ -16,10 +16,10 @@ from sklearn.metrics import ConfusionMatrixDisplay,PrecisionRecallDisplay,precis
 
 def main():
 # Your streamlit code
-    st.sidebar.image("Resize_logos.webp",caption="Data science")
+   
     st.title("Application de Machine Learning pour la Détection de Fraude par Carte de Crédit")
     st.subheader("Auteur : Mahamat Hassan Issa")
-    if st.sidebar.checkbox("Déscription de données",False):
+    if st.sidebar.checkbox("Description de données",False):
         st.write("Les ensembles de données contiennent les transactions effectuées par carte de crédit en septembre 2013 par des titulaires de cartes européens. Cet ensemble de données présente les transactions survenues en deux jours, où nous avons 492 fraudes sur 284 807 transactions.")
         st.write("L'ensemble de données est très déséquilibré, la classe positive (fraudes) représentant 0,172% de toutes les transactions.  Il contient uniquement des variables d'entrée numériques qui sont le résultat d'une transformation PCA.")
         st.write("En raison de problèmes de confidentialité, les caractéristiques originales et davantage d'informations générales sur les données ne sont pas fournies.Les fonctionnalités V1, V2, ... V28 sont les principaux composants obtenus avec PCA; Les fonctionnalités V1, V2, ... V28 sont les principaux composants obtenus avec PCA.")
